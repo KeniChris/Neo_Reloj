@@ -38,10 +38,20 @@
     ],
     "reqPermissions": [
       {
-        "name": "ohos.permission.ACCELEROMETER"
+        "name": "ohos.permission.ACCELEROMETER",
+        "reason": "Leer movimiento de la muneca",
+        "usedScene": {
+          "ability": ["MainAbility"],
+          "when": "inuse"
+        }
       },
       {
-        "name": "ohos.permission.GYROSCOPE"
+        "name": "ohos.permission.GYROSCOPE",
+        "reason": "Leer giros de la muneca",
+        "usedScene": {
+          "ability": ["MainAbility"],
+          "when": "inuse"
+        }
       }
     ]
   }
