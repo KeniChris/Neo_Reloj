@@ -1,0 +1,56 @@
+.page {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #10131b;
+}
+.title {
+  width: 300px;
+  height: 38px;
+  color: #ffffff;
+  font-size: 28px;
+  text-align: center;
+}
+.label {
+  width: 330px;
+  height: 27px;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+}
+.axes {
+  width: 350px;
+  height: 34px;
+  font-size: 19px;
+  text-align: center;
+}
+.accel { color: #76e4b3; }
+.gyro { color: #80bdff; }
+.info {
+  width: 340px;
+  height: 27px;
+  color: #dddddd;
+  font-size: 18px;
+  text-align: center;
+}
+.buttons {
+  width: 300px;
+  height: 48px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.button {
+  width: 135px;
+  height: 40px;
+  font-size: 19px;
+}
+.hint {
+  width: 300px;
+  height: 30px;
+  color: #aaaaaa;
+  font-size: 16px;
+  text-align: center;
+}

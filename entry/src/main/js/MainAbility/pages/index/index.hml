@@ -1,0 +1,14 @@
+<div class="page">
+  <text class="title">GT5 - IMU</text>
+  <text class="label">{{ accelState }}</text>
+  <text class="axes accel">{{ accelAxes }}</text>
+  <text class="label">{{ gyroState }}</text>
+  <text class="axes gyro">{{ gyroAxes }}</text>
+  <text class="info">{{ totals }}</text>
+  <text class="info">{{ rates }}</text>
+  <div class="buttons">
+    <input class="button" type="button" value="Iniciar" onclick="startReading" />
+    <input class="button" type="button" value="Parar" onclick="stopReading" />
+  </div>
+  <text class="hint">{{ hint }}</text>
+</div>
